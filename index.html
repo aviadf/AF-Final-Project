@@ -12,7 +12,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
     <script src="app/app.js"></script>
-    <script src="app/model/messageCtrl.js"></script>
+    <script src="app/messages/messageCtrl.js"></script>
+    <script src="app/login/loginCtrl.js"></script>
+
+    <script src="app/model/user.js"></script>
+    <script src="app/model/activeUser.js"></script>
 
     <link href="css/style.css" rel="stylesheet">
 </head>
@@ -35,12 +39,12 @@
   
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse navbar-ex1-collapse">
-          <!-- Left bar-- <ul class="nav navbar-nav">
+          <!-- Left bar <ul class="nav navbar-nav">
               <li class="active"><a href="#">Link</a></li>
               <li><a href="#">Link1</a></li>
           </ul> -->
           
-          <!-- search option-- <form class="navbar-form navbar-left" role="search">
+          <!-- search option <form class="navbar-form navbar-left" role="search">
               <div class="form-group">
                   <input type="text" class="form-control" placeholder="Search">
               </div>
@@ -65,11 +69,7 @@
 
           </ul>
       </div><!-- /.navbar-collapse -->
-  </nav>
-  
-
-
-
+  </nav>  
 
 <ng-view></ng-view>
 

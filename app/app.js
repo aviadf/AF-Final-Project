@@ -5,9 +5,10 @@ hcApp.config(function ($routeProvider) {
         templateUrl: "app/home/home.html"
     })
     .when("/login", {       
-        templateUrl: "app/login/login.html" 
+        templateUrl: "app/login/login.html",
+        controller: "loginCtrl"
     })
-    .when("/login_user", {       
+    .when("/messagesShow", {       
         templateUrl: "app/messages/messagesShow.html",
         controller: "messageCtrl"
     })
