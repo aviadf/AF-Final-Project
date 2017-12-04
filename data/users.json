@@ -1,0 +1,9 @@
+[
+    {
+        "email":"a@b.com",
+        "password": "admin123",
+        "firstName":"Aviad",
+        "lastName": "Firanko",
+        "houseComunityMember": "yes"
+    }
+]
