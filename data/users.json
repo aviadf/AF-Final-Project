@@ -5,5 +5,13 @@
         "firstName":"Aviad",
         "lastName": "Firanko",
         "houseComunityMember": "yes"
+    },
+
+    {
+        "email":"c@d.com",
+        "password": "user123",
+        "firstName":"Israel",
+        "lastName": "Israeli",
+        "houseComunityMember": "no"
     }
 ]
