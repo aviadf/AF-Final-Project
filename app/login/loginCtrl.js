@@ -24,6 +24,7 @@ hcApp.controller("loginCtrl", function ($scope, $http, $location, activeUser, Us
             $location.path("/messagesShow")
         } else {
             $scope.failedAttempt = true;
+            
         }
 
 

@@ -1,5 +1,7 @@
 
 
+<div>
+
 <div class="well well-sm">
     <p>Email:</p>
     <input type="email" name="" id="" ng-model="email">
@@ -14,3 +16,7 @@
         <a class="btn btn-primary btn-lg" ng-click="login()">כניסה למערכת</a>
 </div>
 
+   <div ng-show="failedAttempt" class="failedAttempt">
+שם משתמש או סיסמה שגויים!
+   </div>
+</div>

@@ -32,3 +32,12 @@
 .h2 {
     font-size: 30px;
 }
+
+.failedAttempt {
+font-weight: bold;
+color: red;
+border-style: solid;
+border-width: 10px;
+width: 200px;
+
+}
