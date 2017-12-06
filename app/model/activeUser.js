@@ -6,6 +6,16 @@ hcApp.factory("activeUser", function(User){
         return user ? true : false;
     };
 
+    var isHouseComunityMember = function(user) {
+alert(JSON.stringify(user));
+        if (user.houseComunityMember === "yes") {
+            return true;
+        } else {
+            return false;
+        }
+    };
+
+
     var login = function(loggedInUser) {
         user = loggedInUser;
     };
@@ -22,6 +32,7 @@ hcApp.factory("activeUser", function(User){
         isLoggedIn: isLoggedIn,
         login: login,
         logout: logout,
-        get: get
+        get: get,
+        isHouseComunityMember: isHouseComunityMember        
     };   
 });

@@ -4,7 +4,7 @@
         "password": "admin123",
         "firstName":"Aviad",
         "lastName": "Firanko",
-        "houseComunityMember": "yes"
+        "houseComunityMember": true
     },
 
     {
@@ -12,6 +12,6 @@
         "password": "user123",
         "firstName":"Israel",
         "lastName": "Israeli",
-        "houseComunityMember": "no"
+        "houseComunityMember": false
     }
 ]
