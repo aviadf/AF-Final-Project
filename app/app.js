@@ -12,5 +12,8 @@ hcApp.config(function ($routeProvider) {
         templateUrl: "app/messages/messagesShow.html",
         controller: "messageCtrl"
     })
-
+    .when("/suggestionsShow", {       
+        templateUrl: "app/suggestions/suggestionsShow.html",
+        controller: "suggestionCtrl"
+    })
 });

@@ -1,14 +1,16 @@
 
-    <!-- צפייה בהודעות -->
+    <!-- מסך דיירים -->
   
-    <h2 class="h2">צפייה בהודעות</h2>
-    <div ng-repeat="message in messages" class="messages_css">
+    <h2 class="h2">צפייה בהודעות הועד</h2>
+    
+    <div  ng-repeat="message in messages" class="messages_css">
           
         <br>
         {{message.message}}
         <br>  
                       
     </div>
+
         
          <!--********************************************-->
 
@@ -18,6 +20,6 @@
     <br>
 
   
-    <button ng-show="isHouseComunityMember()" type="button" class="btn btn-default">הצעה חדשה</button>
+    <button type="button" class="btn btn-default">הצעה חדשה</button>
     
     
