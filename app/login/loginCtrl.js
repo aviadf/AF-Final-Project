@@ -21,7 +21,11 @@ hcApp.controller("loginCtrl", function ($scope, $http, $location, activeUser, Us
         if (user != null) {
             activeUser.login(user);
             //$uibModalInstance.close("Logged-in");
-            $location.path("/messagesShow")
+            if (user.houseComunityMember) {
+                $location.path("/suggestionsShow")
+            }
+            else {$location.path("/messagesShow")
+            }
         } else {
             $scope.failedAttempt = true;
             
