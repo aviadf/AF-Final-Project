@@ -1,6 +1,6 @@
 hcApp.controller("loginCtrl", function ($scope, $http, $location, activeUser, User) {
 
-    // TODO: Detele this
+    // Maybe considered to be deleted
     $scope.email = "a@b.com";
     $scope.password = "admin123";
 
